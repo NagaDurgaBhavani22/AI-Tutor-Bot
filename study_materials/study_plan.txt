@@ -1,0 +1,53 @@
+## Python Functions Study Plan
+
+This plan uses material from "A Practical Introduction to Python Programming" by Heinold and "Think Python" by Allen B. Downey.
+
+
+**Level 1: Understanding Functions**
+
+**Time Estimate:** 2-3 hours
+
+**Subtopics:**
+
+1. **What is a function?** (Think Python, p. 39)
+    * Definition: A named sequence of statements performing a computation.
+    * Function calls: How to invoke a function and provide arguments.
+    * Return values: Understanding the output of a function.
+    * Examples: `type()`, `int()`, `float()` functions.
+    * **Exercise:** Practice calling `int()`, `float()`, and `type()` with different inputs, observing the results. Note any errors.
+
+2. **Defining functions:** (Think Python, p. 39; Heinold, p. 130)
+    * `def` keyword, function name, parameters, and the body of the function.
+    * `return` statement: Specifying the function's output.
+    * Example:  Creating a simple function to draw a square (Heinold, p. 130).
+    * **Exercise:** Create functions to perform simple calculations (addition, subtraction, etc.) and print the results.  Create a function that takes a name as input and prints a personalized greeting.
+
+3. **Function arguments:** (Heinold, p. 130)
+    * Passing values to functions.
+    * Multiple arguments.
+    * Variable scope within functions.
+    * **Exercise:** Modify the square-drawing function to take the side length as an argument. Create a function that calculates the area of a rectangle given length and width as arguments.
+
+
+**Level 2: First-Class Functions**
+
+**Time Estimate:** 1-2 hours
+
+**Subtopics:**
+
+1. **First-class functions:** (Heinold, p. 241)
+    * Functions as objects:  Understanding that functions can be treated like other data types (assigned to variables, passed as arguments).
+    * Copying functions: Demonstrating that assigning a function to a new variable creates a reference, not a copy.
+    * Lists of functions:  Storing functions in lists or other data structures.
+    * **Exercise:** Create a list of functions that perform different mathematical operations (e.g., square, cube, factorial). Write a function that takes this list and an input number and applies each function in the list to the number, printing the results.
+
+
+**Important Notes:**
+
+* Pay close attention to the examples in both books.  Reproduce them and modify them slightly to deepen your understanding.
+* Focus on understanding the concepts of function arguments and return values.
+* Practice writing different functions to solidify your understanding.
+* The provided text snippets don't cover error handling or more advanced aspects of functions (like recursion or lambda functions), which will be covered in later levels.
+
+
+This plan provides a structured approach to learning about functions in Python at a beginner level. Remember to consistently practice coding to reinforce your understanding.  After completing this level, you'll have a solid foundation to build upon for more advanced topics.

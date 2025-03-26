@@ -1,0 +1,10 @@
+python-dotenv 
+PyMuPDF
+faiss-cpu
+langchain 
+langgraph
+google-generativeai 
+langchain-google-genai
+langchain-community
+langchain-experimental
+Pillow
